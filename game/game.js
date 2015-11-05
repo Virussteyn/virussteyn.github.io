@@ -6,6 +6,5 @@ $( document ).ready(function() {
 		$("#playBtn").hide();
 	}); //ask for your name
 	var name = prompt("What is your name?");
-	// The question you are given has to be answered correctly but if answered wrong the game will stop
-	var 
+    }); 
 });
