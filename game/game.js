@@ -26,5 +26,29 @@ switch(question1) {
     case 'FAF DU PLESSIS':
     alert("wrong, try again");
     break;
+});
+});
+
+while (correctAnswer!=1) {
+
+	var question2 = prompt("Who is the ODI captain of India in cricket? Virat Kohli, MS Dhoni or Suresh Raina?").toUpperCase();
+
+	switch(question 2) {
+		case 'MS DHONI':
+		alert("Wrong");
+		break;
+
+		case 'SURESH RAINA':
+        alert("Wrong");
+        break;
+
+        case 'VIRAT KOHLI':
+        alert("Correct");
+        break;
+
+	}
 }
-}
+
+
+
+
