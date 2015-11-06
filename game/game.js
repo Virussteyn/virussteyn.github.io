@@ -14,16 +14,16 @@ while (correctAnswer!=1) {
 var question1 = prompt("Who is the test captain of South Africa? Hashim Amla, AB De Villiers or Faf Du Plessis?").toUpperCase();
 
 switch(question1) {
-    case 'A':
+    case 'Hashim Amla':
+    alert("Correct");
+    correctAnswer=1;
+    break;
+        
+    case 'AB De Villiers':
     alert("wrong");
     break;
         
-    case 'B':
-    alert("correct");
-    correctAnswer = 1;
-    break;
-        
-    case 'C':
+    case 'Faf Du Plessis':
     alert("wrong, try again");
     break;
 }
