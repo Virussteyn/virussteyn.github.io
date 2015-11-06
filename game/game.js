@@ -11,7 +11,7 @@ $(document).ready(function() {
 var begin = prompt("are you ready");
 var correctAnswer = 0;
 while (correctAnswer!=1) {
-var question1 = prompt("What is the correct answer? A, B, or C?").toUpperCase();
+var question1 = prompt("Who is the test captain of South Africa? Hashim Amla, AB De Villiers or Faf Du Plessis?").toUpperCase();
 
 switch(question1) {
     case 'A':
